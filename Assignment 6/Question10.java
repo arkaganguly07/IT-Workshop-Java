@@ -17,8 +17,8 @@ public class Question10{
     {
         String name;
         int i, j;
-        double percentage;
-        int sum = 0;
+        double percentage = 0.0;
+        double sum = 0.0;
         int marks[] = new int[6];
 
         Scanner sc = new Scanner(System.in);
@@ -48,7 +48,7 @@ public class Question10{
 
             for (i = 0; i < j; ++i)
                 sum += marks[i];
-
+            
             percentage = sum / 300 * 100;
         }
 
@@ -63,5 +63,21 @@ public class Question10{
 
 /*
 Output:
-
+Enter the name of the Student:
+Sasuke Uchiha
+Enter the number of subjects:
+6
+Enter the marks of the student:
+45
+Enter the marks of the student:
+43
+Enter the marks of the student:
+45
+Enter the marks of the student:
+46
+Enter the marks of the student:
+47
+Enter the marks of the student:
+50
+Total Percentage = 92.0
  */
